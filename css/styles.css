@@ -267,6 +267,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 line-height: 1.11;
 text-align: center;
+margin-bottom: 72px;
 
 
 }
@@ -288,11 +289,12 @@ color: #2E2F42;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
-text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .section-second {
 background: #F4F4FD;
+
 }
 
 .title-second {
@@ -303,6 +305,7 @@ font-size: 20px;
 letter-spacing: 0.02em;
 color: #2E2F42;
 line-height: 1.2;
+margin-bottom: 8px;
 }
 
 .text-third {
@@ -315,6 +318,12 @@ color: #434455;
 line-height: 1.5;
 }
 
+.list-team {
+display: flex;
+text-align: center;
+
+}
+
 /*------Footer----------*/
 
 .last-word {
@@ -324,6 +333,8 @@ font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+width: 264px;
+margin-top: 16px;
 }
 
 .section-finish {
@@ -333,15 +344,19 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #4d5ae5;
 text-decoration:none;
-color: #f4f4fd;  
+color: #f4f4fd; 
+padding-top: 100px; 
+padding-bottom: 100px;
+
 }
 
 .footer-logo {
 color: #4d5ae5;
 text-decoration:none;
+text-transform: uppercase;
+
 }
 
 /*--------Portfolio--------*/
@@ -355,7 +370,6 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17px;
 letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #F4F4FD;
 text-decoration:none;
 }

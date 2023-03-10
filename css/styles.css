@@ -59,8 +59,8 @@ letter-spacing: 0.02em;
 }
 
 .page-header {
-padding-top: 24px;
-padding-bottom: 24px; 
+border-bottom: 1px solid var(--accent-color);
+
 }
 
 .header-logo {
@@ -74,12 +74,9 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+margin-right: 76px;
 }
 
-.logo {
-margin-left: 156px; 
-margin-right: 76px;
-}  
 
 
 .menu-first:not(:last-child) {
@@ -110,8 +107,6 @@ font-style: normal;
 
 .menu {
 display: flex;
-margin-left: 40px;
-margin-left: 76px;
 }
 
 
@@ -134,8 +129,8 @@ color: var(--pressed-state-color);
 display: flex;
 align-items: center;
 justify-content:space-between;
-padding-top: 25.5px ;
-padding-bottom: 25.5px;
+padding-top: 24px ;
+padding-bottom: 24px;
 }
 
 .navigation {
@@ -145,7 +140,10 @@ align-items: center;
 
 .contact-menu {
 color: var(--text-color);
-margin-right: 40px;
+
+}
+.contact-menu:not(:last-child) {
+margin-right: 40px;    
 }
 
 .adress-list {
@@ -175,14 +173,9 @@ font-style: normal;
 
 .hero-section {
 background-color: var(--hero-background-color);
-width: 1440px;
 text-align: center;
-padding-top: 196px;
-padding-bottom: 304px;
-margin-left: auto;
-margin-right: auto;
-padding-top: 196px;
-padding-bottom: 304px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 
@@ -200,37 +193,35 @@ margin: 0 auto;
 }
 
 .btn-active {
-border-radius: 4px;
 background-color: var(--pressed-state-color);
 font-family: "Roboto", sans-serif ;
 font-weight: 500;
 color: var(--primery-bcg-color);
 cursor: pointer;
-width: 169px;
-height: 56px;
-left: 636px;
-top: 428px;
-display: block;
-margin: 0 auto;
+min-width: 170px;
+display: inline-block;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-padding: 16px, 32px, 16px, 32px;
-gap: 10px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+padding: 16px 32px;
 border-radius: 4px;
-border: none;
-margin-top: 60px;
+border: 2px solid transparent;
+margin-top: 48px;
 }
 
-.list-menu {
+.list-work {
 display: flex;
-margin-right: 156px;
-justify-content: space-around;
-width: 1128px;
 }
 
+.section {
+padding-top: 120px;
+padding-bottom: 120px;
 
+}
+
+.our-work {
+padding-bottom: none;
+}
 
 .title {
 font-family: 'inferit';
@@ -240,11 +231,7 @@ font-size: 20px;
 letter-spacing: 0.02em;
 color: #2E2F42;
 line-height: 1.2;
-margin-top: 120px;
-margin-left: 104px;
-width: 264px;
 padding-bottom: 8px;
-padding-right: 24px;
 
 }
 
@@ -256,10 +243,11 @@ font-size: 16px;
 letter-spacing: 0.02em;
 color: #434455;
 line-height: 1.5;
-margin-left: 104px;
-
 }
 
+.menu-item:not(:last-child) {
+margin-right: 24px;
+}
 
 
 ul, 
@@ -276,14 +264,17 @@ font-style: normal;
 font-weight: 700;
 font-size: 36px;
 letter-spacing: 0.02em;
-text-transform: capitalize;
 color: #2E2F42;
 line-height: 1.11;
 text-align: center;
-margin-top: 120px;
-margin-bottom: 80px;
+
+
 }
 
+
+.list-menu {
+display: flex;    
+}
 
 /*--------Our Team Section-------*/
 

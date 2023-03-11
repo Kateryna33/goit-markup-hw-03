@@ -193,7 +193,7 @@ margin: 0 auto;
 }
 
 .btn-active {
-background-color: var(--pressed-state-color);
+background-color: var(--primery-brand-color);
 font-family: "Roboto", sans-serif ;
 font-weight: 500;
 color: var(--primery-bcg-color);
@@ -207,6 +207,11 @@ padding: 16px 32px;
 border-radius: 4px;
 border: 2px solid transparent;
 margin-top: 48px;
+}
+
+.btn-active:hover,
+.btn-active:focus {
+ background-color: var(--pressed-state-color);   
 }
 
 .list-work {
@@ -288,15 +293,17 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 margin-bottom: 72px;
+
 }
 
 .section-second {
-background: #F4F4FD;
+background: var(--light-color)
 
 }
 
 .menu-item {
-background-color:#FFFFFF;   
+background-color:#FFFFFF;
+   
 }
 
 .title-second {
@@ -308,7 +315,8 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 line-height: 1.2;
 margin-bottom: 8px;
-padding-top: 32px;
+
+
 }
 
 .text-third {
@@ -319,12 +327,13 @@ font-size: 16px;
 letter-spacing: 0.02em;
 color: #434455;
 line-height: 1.5;
-padding-bottom: 16px;
+
 }
 
 .list-team {
 display: flex;
 text-align: center;
+
 
 }
 
@@ -415,6 +424,12 @@ border: 2px solid transparent;
 margin-right: 24px;
 }
 
+.btn-active-another:hover
+.btn-active-another:focus {
+background-color: var(--pressed-state-color);
+color: var(--primery-bcg-color);
+}
+
 .list-menu-section {
 color: #4D5AE5;
 font-family: "Roboto", sans-serif;
@@ -462,6 +477,8 @@ letter-spacing: 0.02em;
 cursor: pointer;
 text-decoration: none;
 margin-bottom: 8px;
+padding-left: 16px;
+
 }
 
 .text-foto {
@@ -472,6 +489,7 @@ letter-spacing: 0.02em;
 font-size: 16px;
 color: #434455;
 text-decoration: none;
+padding-left: 16px;
 }
 
 .card-border {

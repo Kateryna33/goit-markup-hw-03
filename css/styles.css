@@ -219,8 +219,8 @@ padding-bottom: 120px;
 
 }
 
-.our-work {
-padding-bottom: none;
+.foto-work {
+padding-top: none;
 }
 
 .title {
@@ -385,9 +385,14 @@ letter-spacing: 0.03em;
 color: #2E2F42;
 }
 
+
+/*-----------КНОПКИ------------*/
+
+
 .button-section {
-list-style:none;
+display:flex;
 }
+
 
 .btn-active-another {
 color: var(--primery-brand-color);
@@ -399,7 +404,10 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 font-style:normal;
-list-style:none
+list-style:none;
+border-radius: 4px;
+border: 2px solid transparent;
+margin-right: 24px;
 }
 
 .list-menu-section {
@@ -411,7 +419,36 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 font-style:normal;
-list-style:none  
+list-style:none;
+justify-content:center;
+flex-direction: row; 
+border:transparent;
+text-transform: none;
+display:flex;
+text-align: center;
+margin-top: 96px;
+padding: 12px 24px;
+}
+
+
+/*-----------НАША РАБОТА--------*/
+
+.menu-work {
+display: block;
+justify-content:center;
+
+column-gap: 24px;
+}
+
+.menu-picture-list {
+display:block;
+justify-content: center;
+padding-right: 24px;   
+width: 360px;
+float: left;
+
+margin: 0 auto; 
+margin-top: 72px;  
 }
 
 .menu-work-foto {

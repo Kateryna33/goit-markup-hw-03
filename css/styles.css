@@ -42,9 +42,8 @@ address {
 .container {
 width: 1158px;
 margin: 0 auto;
-padding-left: 15;
-padding-right: 15;
-
+padding-left: 15px;
+padding-right: 15px;
 }
 
 
@@ -55,12 +54,10 @@ background-color: var(--primery-bcg-color);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-  
 }
 
 .page-header {
 border-bottom: 1px solid var(--accent-color);
-
 }
 
 .header-logo {
@@ -198,7 +195,6 @@ font-family: "Roboto", sans-serif ;
 font-weight: 500;
 color: var(--primery-bcg-color);
 cursor: pointer;
-min-width: 170px;
 display: inline-block;
 font-size: 16px;
 line-height: 1.5;
@@ -229,19 +225,16 @@ padding-top: none;
 }
 
 .title {
-font-family: 'inferit';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 letter-spacing: 0.02em;
 color: #2E2F42;
 line-height: 1.2;
-padding-bottom: 8px;
-
+margin-bottom: 8px;
 }
 
 .text {
-font-family: 'inferit';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -264,7 +257,6 @@ ol {
 /*------Что мы делаем------*/
 
 .section-our-work-list {
-font-family: 'inferit';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -284,7 +276,6 @@ display: flex;
 
 
 .section-conteiner-hidden {
-font-family: 'inferit';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -307,7 +298,6 @@ background-color:#FFFFFF;
 }
 
 .title-second {
-font-family: 'inferit';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -315,32 +305,25 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 line-height: 1.2;
 margin-bottom: 8px;
-
-
 }
 
 .text-third {
-font-family: 'inferit';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.02em;
 color: #434455;
 line-height: 1.5;
-
 }
 
 .list-team {
 display: flex;
 text-align: center;
-
-
 }
 
 /*------Footer----------*/
 
 .last-word {
-font-family: 'inferit';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -362,14 +345,12 @@ text-decoration:none;
 color: #f4f4fd; 
 padding-top: 100px; 
 padding-bottom: 100px;
-
 }
 
 .footer-logo {
 color: #4d5ae5;
 text-decoration:none;
 text-transform: uppercase;
-
 }
 
 /*--------Portfolio--------*/
@@ -478,7 +459,6 @@ cursor: pointer;
 text-decoration: none;
 margin-bottom: 8px;
 padding-left: 16px;
-
 }
 
 .text-foto {

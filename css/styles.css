@@ -405,7 +405,7 @@ border: 2px solid transparent;
 margin-right: 24px;
 }
 
-.btn-active-another:hover
+.btn-active-another:hover,
 .btn-active-another:focus {
 background-color: var(--pressed-state-color);
 color: var(--primery-bcg-color);

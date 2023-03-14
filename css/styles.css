@@ -340,12 +340,6 @@ text-align: center;
 /*------Footer----------*/
 
 .last-word {
-/* font-family: "Roboto", sans-serif; */
-
-/* font-size: 16px; 
-line-height: 1.5; */
-letter-spacing: 0.02em;
-color: #E7E9FC;
 width: 264px;
 margin-top: 16px;
 }
@@ -411,7 +405,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-/* cursor: pointer; */
 border-radius: 4px;
 border: 2px solid var(--accent-color);
 padding: 12px 24px;
